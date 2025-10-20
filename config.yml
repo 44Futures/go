@@ -1,1 +1,28 @@
+# Site settings
+title: 44Futures
+description: "A blue collar futures trading website"
+baseurl: ""           # Leave empty for project sites
+url: ""              # GitHub Pages handles this
 
+# Build settings
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Default layout
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
